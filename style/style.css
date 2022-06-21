@@ -24,7 +24,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    background-image: url(../img/fondo-logo2.jpg);
+    background-image: url("../img/fondo-logo2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 0.2rem solid #d76b00;
