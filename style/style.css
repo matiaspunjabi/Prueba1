@@ -149,6 +149,11 @@ body{
 
 /* SERVICIOS */
 
+.nosotros__img{
+    border: var(--color6) 0.15rem solid;
+    box-shadow: 0.1rem 0.5rem 0.4rem rgb(25,25,25);
+}
+
 
 
 footer{
