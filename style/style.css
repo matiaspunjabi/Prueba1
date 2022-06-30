@@ -31,12 +31,15 @@ body{
     color: var(--color6);
 }
 
+.p__bg{
+    background-color: #2627275d;
+    box-shadow: 0.2rem 0.2rem 0.1rem var(--color6);
+}
+
 /* INDEX */
 
 .h2__frase{
     color: var(--color4);
-    /* border-top: var(--color6) solid 0.13rem;
-    border-bottom: var(--color6) solid 0.13rem; */
     font-weight: bold;
 }
 
@@ -147,11 +150,27 @@ body{
     transform: scale(1.02);
 }
 
-/* SERVICIOS */
+/* NOSOTROS */
 
 .nosotros__img{
     border: var(--color6) 0.15rem solid;
     box-shadow: .1rem .2rem .1rem var(--color3);
+}
+
+/* SERVICIOS */
+
+.servicios__video{
+    max-width: 30rem;
+}
+
+.card__servicios{
+    background-color: #212529;
+    border: none;
+    color: var(--color6);
+}
+
+.img__bolsa{
+    object-fit: scale-down;
 }
 
 /* CONTACTO */
@@ -183,7 +202,6 @@ body{
 footer{
     background-color: var(--color2);
     box-shadow: 0.2rem 0.2rem 0 var(--color6);
-
 }
 
 .img__redes{
