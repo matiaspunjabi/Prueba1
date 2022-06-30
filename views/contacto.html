@@ -40,34 +40,27 @@
     </header>
     <main>
         <section>
-            <article>
-                <h3 class="">Puede contactarnos de las siguientes maneras:</h3>
+            <article class="container fluid my-3">
+                <h3 class="text-center h2__frase ">Puede <span class="span__frase">contactarnos</span> de las siguientes maneras:</h3>
             </article>
-            <article class="">
-                <ul class="">
-                    <li>Whatsapp: +54 9 2901 488368</li>
-                    <li>Email: agranelrg@gmail.com</li>
-                    <li>Dirección: Fuegia Basket esq. Río Grande - Tierra Del Fuego</li>
-                    <li>Horario de atención: Lunes a Sábados 10hs a 13hs y 16hs a 20hs</li>
+            <article class="row px-3">
+                <ul class=" col-md-6 text-white ul__contacto">
+                    <li class="my-2">Whatsapp: +54 9 2901 488368</li>
+                    <li class="my-2">Email: agranelrg@gmail.com</li>
+                    <li class="my-2">Dirección: Fuegia Basket esq. Río Grande - Tierra Del Fuego</li>
+                    <li class="my-2">Horario de atención: Lunes a Sábados 10hs a 13hs y 16hs a 20hs</li>
                 </ul>
-                <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2298.743904072819!2d-68.33339148410548!3d-54.819615680314165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c2342e4349c2b%3A0xe8101785a83bb1b8!2sA%20Granel!5e0!3m2!1ses-419!2sar!4v1655749570650!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="col-md-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2298.743904072819!2d-68.33339148410548!3d-54.819615680314165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c2342e4349c2b%3A0xe8101785a83bb1b8!2sA%20Granel!5e0!3m2!1ses-419!2sar!4v1655749570650!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
-            <article>
-                <h3 class="">Si no con el siguiente formulario:</h3>
-                    <div>
-                        <form class="" action="envio.php">
-                            <fieldset class="">
-                                <legend>Consultas y Pedidos</legend>
-                                <label class="" for="name">Nombre y Apellido:</label>
-                                <input class="" type="text" name="name" id="name"    placeholder="Nombre y Apellido">
-                                <label class="" for="number">Teléfono:</label>
-                                <input class="" type="text" name="number" id="number" placeholder="Número de teléfono">
-                                <label class="" for="email">Email:</label>
-                                <input class="" type="email" name="email" id="email" placeholder="Email">
-                            </fieldset>
-                            
-                            <textarea class="" name="consulta" placeholder="Consulta, pedido, información."></textarea>
-                            <input class="" type="submit" name="envio" value="enviar">
+            <article class="container-fluid my-3">
+                <h3 class="text-center h2__frase my-3">Si no con el <span class="span__frase">siguiente formulario:</span></h3>
+                    <div class="row">
+                        <form class="col-sm-12 text-white form mx-auto" action="envio.php">
+                            <input class="w-100 form__input" type="text" name="name" id="name"    placeholder="Nombre y Apellido">
+                            <input class="w-100 form__input" type="text" name="number" id="number" placeholder="Número de teléfono">
+                            <input class="w-100 form__input" type="email" name="email" id="email" placeholder="Email">
+                            <textarea class="w-100 form__input form__textarea" name="consulta" placeholder="Consulta, pedido, información."></textarea>
+                            <input class="w-100 py-2 btn__vermas text-white" type="submit" name="envio" value="Enviar">
                             
                         </form>
                     </div>

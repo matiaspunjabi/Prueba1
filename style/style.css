@@ -151,10 +151,34 @@ body{
 
 .nosotros__img{
     border: var(--color6) 0.15rem solid;
-    box-shadow: 0.1rem 0.5rem 0.4rem rgb(25,25,25);
+    box-shadow: .1rem .2rem .1rem var(--color3);
 }
 
+/* CONTACTO */
 
+.ul__contacto{
+    list-style: none;
+}
+
+.form{
+    max-width: 35rem;
+}
+
+.form__input{
+    border: none;
+    border-bottom: var(--color3) 0.1rem solid;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: var(--color5);
+    color: var(--color6);
+}
+
+.form__textarea{
+    resize: none;
+    height: 10rem;
+}
+
+/* FOOTER */
 
 footer{
     background-color: var(--color2);
