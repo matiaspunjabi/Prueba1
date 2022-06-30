@@ -130,11 +130,21 @@ body{
 
 .p__ofertas{
     color: var(--color6);
-    background-color: var(--color4);
+}
+
+.a__pedidos{
+    color: var(--color3);
 }
 
 .card__ofertas{
     background-color: var(--color5);
+    box-shadow: 0.1rem 0.1rem 0.4rem rgb(25,25,25);
+    transition: 0.3s;
+
+}
+
+.card__ofertas:hover{
+    transform: scale(1.02);
 }
 
 
